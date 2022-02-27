@@ -1,0 +1,29 @@
+name: simcrypter
+description: A new Flutter application.
+
+version: 1.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  rflutter_alert: ^2.0.2
+  qr_flutter: ^4.0.0
+  crypto: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+    - family: MajorMono
+      fonts:
+        - asset: fonts/MajorMonoDisplay-Regular.ttf
