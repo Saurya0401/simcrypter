@@ -1,16 +1,16 @@
 # simcrypter
 
-A new Flutter application.
+A simple flutter application to encrypt and decrypt plaintext messages. Encryption and decryption is done via a substitution cipher.
+The app has a couple of other features such as showing a QR code of the encryption/decryption output and quick access commands to clear input/output (or undo them).
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+#### Encryption
+<img src="screenshots/1_successful_encryption.png" alt="Successful encryption" width="225"/> <img src="screenshots/2_encryption_result.png" alt="Encryption result" width="225"/> 
 
-A few resources to get you started if this is your first Flutter project:
+#### Decryption
+<img src="screenshots/3_decryption_key_entry.png" alt="Decryption key entry" width="225"/> <img src="screenshots/4_successful_decryption.png" alt="Successful decryption" width="225"/> <img src="screenshots/5_decryption_result.png" alt="Decryption result" width="225"/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Disclaimer
+This app is meant for fun and personal use and has not been vetted by cryptography security professionals. Please do not use this app as a substitute for cryptographically secure tools.
+I accept no liability or responsibility to any person as a consequence of any reliance upon the services of this app.
