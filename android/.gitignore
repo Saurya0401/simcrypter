@@ -6,4 +6,5 @@ gradle-wrapper.jar
 /gradlew.bat
 /key.properties
 /local.properties
+/lib/scratch
 GeneratedPluginRegistrant.java
